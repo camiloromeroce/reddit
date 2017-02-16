@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:id="@+id/linearLayout1"
+        android:orientation="vertical"
+        android:layout_weight="0.42"
+        android:layout_marginLeft="5dip"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/display_name"
+            android:id="@+id/tvDisplayName"
+            android:textColor="@color/colorPrimaryText">
+        </TextView>
+
+        <TextView
+            android:text="@string/public_description"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tvPublicDescription"
+            android:textColor="@color/colorSecondaryText"
+            android:layout_marginTop="@dimen/top">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/top">
+
+        <ImageView
+            android:id="@+id/ivHeader"
+            android:layout_width="65dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:maxHeight="100dp"
+            android:maxWidth="120dp"
+            android:scaleType="fitXY"
+            android:paddingTop="@dimen/top">
+
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tvSubscribers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:maxWidth="100dp"
+            android:scaleType="fitXY"
+            android:text="@string/subscribers"
+            android:textColor="@color/colorDivider">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

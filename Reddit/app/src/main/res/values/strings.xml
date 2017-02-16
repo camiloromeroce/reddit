@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Reddit</string>
+    <string name="cargando">Cargando...</string>
+    <string name="json_file">json_file</string>
+    <string name="salir_app">Presiona atras nuevamente para salir de la aplicación</string>
+    <string name="display_name">Display Name</string>
+    <string name="public_description">Descripción pública</string>
+    <string name="subscribers">Subscriptores</string>
+    <string name="detalle_resultados">Lo sentimos, tu selección no posee una descripción detallada</string>
+</resources>
